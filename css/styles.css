@@ -1,0 +1,128 @@
+:root {
+    --dark-jungle-green: rgba(24, 31, 28, 1);
+    --light-jungle-green: #353E3E;
+    --honeydew: rgba(232, 247, 238, 1);
+    --blue-jeans: rgba(72, 172, 240, 1);
+    --mandarin: rgba(239, 123, 69, 1);
+    --xanadu: rgba(107, 125, 125, 1);
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sidenav {
+    overflow-x: hidden;
+    background-color: var(--dark-jungle-green);
+    height: 100%;
+    width: 250px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    padding: 20px;
+    color: var(--honeydew);
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sidenav img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.name {
+    position: block;
+    text-align: center;
+}
+
+.nav-elements {
+    margin-top: 30px;
+}
+
+.sidenav a {
+    padding: 20px 0px 20px 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--honeydew);
+    display: block;
+}
+
+.sidenav a:hover {
+    color: var(--xanadu);
+}
+
+.sidenav .img-link {
+    background-color: var(--honeydew);
+    border-radius: 100%;
+    display: inline-block;
+    /* margin: auto; */
+    margin: 5px;
+    width: 25px;
+}
+
+.nav-footer {
+    position: fixed;
+    bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px 20% 20px 20%; */
+}
+
+body {
+    background-color: var(--xanadu);
+    height: 100%;
+    margin: 0;
+}
+
+.body-content {
+    padding-top: 25px;
+    margin-left: 325px;
+    margin-right: 25px;
+    top: 0;
+}
+
+.section {
+    background-color: var(--light-jungle-green);
+    color: var(--honeydew);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.img-small {
+    display: inline;
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    object-position: 88% 0;
+}
+
+.flex p {
+    margin-top: 0;
+    margin-left: 10px;
+    /* display: inline-block; */
+}
+
+.section .content {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20% 20px 20%;
+}
